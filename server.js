@@ -8,6 +8,7 @@ const charactersRouter = require('./Routers/charactersRouter');
 const seasonsRouter = require('./Routers/seasonsRouter');
 const quoateRouter = require('./Routers/quotesRouter');
 const episodesRouter = require('./Routers/episodesRouter');
+const POST = process.env.port || 8888
 
 connectDB.connectDB;
 
@@ -26,7 +27,7 @@ if(process.env.NODE_ENV === 'production') {
     });
 }
 
-app.listen(1515, () => {
-    console.log(`the server are running on ${process.env.PORT}`)
+app.listen(PORT, () => {
+    console.log(`the server are running on ${PORT}`)
 })
 
