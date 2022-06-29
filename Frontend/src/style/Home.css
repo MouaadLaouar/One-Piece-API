@@ -1,0 +1,81 @@
+.Home {
+    /* height: 100%; */
+    width: 100%;
+    z-index: 0;
+    /* background-color: red; */
+}
+
+.Hero {
+    /* background-color: green; */
+    height: 50vh;
+    background-image: url('../assets/one piece.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .Content {
+    max-height: 20vh;
+    
+    margin-left: 200px;
+    margin-bottom: 100px;
+} */
+.Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Content > h1 {
+    /* width: 350px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    color: #47B5FF;
+}
+
+.Content > h1 > img {
+    height: 50px;
+    width: 80px;
+}
+
+.Content > p {
+    max-width: 350px;
+    color: #DFF6FF;
+}
+
+.Content > button {
+    margin-top: 20px;
+    background-color: #1363DF;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content > button > a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content > button > a > img {
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+}
+
+.arrow {
+    height: 24px;
+    width: 24px;
+}

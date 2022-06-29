@@ -1,0 +1,57 @@
+.content {
+    width: 50%;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.content > h1 {
+    color: #1363DF;
+    margin: 20px 0px;
+}
+
+.based-url {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content > p {
+    color: #DFF6FF;
+    margin-bottom: 20px;
+}
+
+
+.table {
+    margin-top: 20px;
+}
+
+h3{
+    color: red;
+    margin-right: 10px;
+}
+
+h2 {
+    margin: 10px 0px;
+    color: #DFF6FF;
+    font-size: 20px;
+}
+
+.hr {
+    margin: 50px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .table {
+        overflow-x: scroll;
+    }
+}

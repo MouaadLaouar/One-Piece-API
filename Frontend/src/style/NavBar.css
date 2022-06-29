@@ -1,0 +1,77 @@
+.NavBar {
+    background-color: #06283D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    z-index: 0;
+}
+
+
+.logo, .logo-img {
+    height: 100px;
+    width: 150px;
+}
+
+.menu {
+    z-index: 999;
+}
+
+.menu-burger, .burger-button {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.menu-list, .menu-list-active {
+    /* display: none; */
+    background-color: #1363DF;
+    height: 100vh;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 990;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-list {
+    right: -100%;
+}
+
+.menu-list-active {
+    right: 0%;
+}
+
+.list {
+    /* background-color: green; */
+    width: 100%;
+    height: 25%;
+}
+
+ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    /* color: #DFF6FF; */
+    color: #06283D;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-list-active {
+        width: 50%;
+    }
+}
