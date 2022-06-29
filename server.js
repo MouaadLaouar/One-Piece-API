@@ -8,7 +8,7 @@ const charactersRouter = require('./Routers/charactersRouter');
 const seasonsRouter = require('./Routers/seasonsRouter');
 const quoateRouter = require('./Routers/quotesRouter');
 const episodesRouter = require('./Routers/episodesRouter');
-const POST = process.env.port || 8888
+const PORT = process.env.port || 8888
 
 connectDB.connectDB;
 
