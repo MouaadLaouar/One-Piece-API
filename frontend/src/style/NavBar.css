@@ -5,6 +5,8 @@
     align-items: center;
     padding: 0px 15px;
     z-index: 0;
+    /* position: fixed; */
+    /* width: 100%; */
 }
 
 
@@ -28,9 +30,9 @@
     background-color: #1363DF;
     height: 100vh;
     width: 25%;
-    position: absolute;
+    position: fixed;
     top: 0;
-    right: 0%;
+    right: 0;
     bottom: 0;
     display: flex;
     justify-content: center;
@@ -41,11 +43,13 @@
 }
 
 .menu-list {
-    right: -100%;
+    /* right: -100%; */
+    transform: translateX(100%);
 }
 
 .menu-list-active {
-    right: 0%;
+    /* right: 0%; */
+    transform: translateX(0%);
 }
 
 .list {
