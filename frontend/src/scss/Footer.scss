@@ -3,20 +3,30 @@ footer {
     padding: 75px 8% 25px;
     width: 100%;
     background-color: #412A1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    h1 {
-        color: #C8472C;
-    }
+    div {
 
-    p {
-        margin-top: 10px;
-        color: #fff;
+        max-width: 900px;
+        
+        h1 {
+            color: #C8472C;
+        }
 
-        a {
-            text-decoration: none;
-            color: red;
-            cursor: pointer;
-            margin-left: 10px;
+
+        p {
+            margin-top: 10px;
+            color: #fff;
+    
+            a {
+                text-decoration: none;
+                color: red;
+                cursor: pointer;
+                margin-left: 10px;
+            }
         }
     }
+
 }
