@@ -41,7 +41,7 @@
     }
 
     .Alert {
-        margin-bottom: 10px;
+        margin: 10px 0px;
     }
 
     
@@ -56,11 +56,47 @@
         padding: 5px 10px;
         margin-left: 20px;
         font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         span {
             color: red;
             font-weight: bold;
             margin: 0px 5px;
         }
+
+        nav {
+            display: flex;
+        }
+
+        img {
+            height: 24px;
+            width: 24px;
+            margin: 0;
+            cursor: pointer;
+        }
+    }
+
+    pre {
+        margin: 10px 0px;
+
+        h1 {
+            color: #000;
+            margin: 10px 0px;
+        }
+
+        div {
+            padding: 5px;
+            border-radius: 8px;
+            background-color: #caccb9;
+        }
+    }
+
+
+    .json {
+        margin: 10px 0px 10px 20px;
+        padding: 10px 0px;
+        overflow-x: scroll;
     }
 }
