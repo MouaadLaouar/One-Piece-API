@@ -5,3 +5,4 @@
 Copyright © 
 
 #DFF6FF text
+print("hello world"!"£$%^&*()_+`¬¬||\\)
